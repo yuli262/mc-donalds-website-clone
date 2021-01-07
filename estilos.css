@@ -34,7 +34,7 @@
 }
 .text-mcdonald{
     text-align: center;
-    margin-top: 20px;
+    padding: 40px 0;
 }
 
 .box{
@@ -133,7 +133,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 18px;
+    padding-top: 18px;
+    min-height: 120px;
+
 }
 
 .conteiner{
@@ -215,4 +217,12 @@
 
 footer{
     margin-top: 26px;
+}
+.conteiner-body{
+    background: white url("https://d25dk4h1q4vl9b.cloudfront.net/bundles/common/headerbottom-home-v2.jpg") no-repeat;
+
+}
+
+img{
+    vertical-align: bottom;
 }
