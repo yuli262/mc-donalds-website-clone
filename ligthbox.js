@@ -1,11 +1,11 @@
 
 
 
-const imagenes = document.querySelectorAll('.img-galeria')
+const images = document.querySelectorAll('.img-galeria')
 const imagenesligth = document.querySelector('.agregar-imagen')
 const contenedorligth = document.querySelector('.imagen-ligth')
 
-imagenes.forEach(imagen =>{
+images.forEach(imagen =>{
     imagen.addEventListener('click', ()=>{
       aparecerImagen(imagen.getAttribute('src'))
     })
