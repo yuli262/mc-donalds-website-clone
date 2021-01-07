@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.lista-menu-mc{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.lista-menu-mc li{
+    padding: 14px 10px;
+    border-right: 1px solid grey;
+    font-weight: bold;
+}
+.primer-li{
+    border-left: 1px solid grey;
+    font-weight: bold;
+}
+.header-mcdonal{
+    display: flex;
+    justify-content: space-evenly;
+    height: 56px;
+    border-top: 4px solid #F0C53E;
+    border-bottom: 1px solid grey;
+    background-color: #F2F2F2;
+}
+.imagen-mcdonal{
+    position: relative;
+    z-index: 10;
+}
+.text-mcdonald{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box{
+    height: 200px;
+    border: 1px solid black;
+}
+.grid-conteiner
+{
+    display: grid;
+    grid-template-columns:repeat(2,minmax(0%,100%));
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.caja1{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5fe3be09221064.42025785_BannerWeb_McCombo-McNi%CC%81fica.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+
+
+}
+.caja2{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5fc655ec278ac6.83370042_unnamed%20(1).jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+
+}
+.caja3{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5fdcf619d21bc0.34095488_Banner-web--soul.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+.caja4{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5fa5511545f3c1.18886327_McFlurry-CrossOver_1423x623.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+.caja5{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5fc01b66342732.45681934_banner-web-cafe_45-1423x623.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+
+.caja6{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5f4fbcc92deab2.54651286_cono_en_casa-banner_web-1423x623.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+.caja7{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5f11d154c9dfe9.72668685_DuplaPerfecta_BannerHome.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+.caja8{
+    background-image:url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5f99d9d5be8aa5.23784363_BannerWeb_1423x623.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+.caja9{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5f1f33eaeec224.22397574_banner-web-mccomboapp.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+
+}
+.caja10{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5f11d285361010.36531366_Antojos_BannerHome.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+.caja11{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5fa36d57764404.04161800_banner-web-familybox-1423x623-v4.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+.caja12{
+    background-image: url("https://d25dk4h1q4vl9b.cloudfront.net/media/images/promotion-pill/5d9fadc78c1cb7.75042504_5d9f3c2f187998.36195043_BannerWeb1423x623.png");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+}
+
+.text-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.conteiner{
+    margin-top: 26px;
+    padding-right: 18px;
+
+}
+
+
+
+
+.borde-hover{
+    border-bottom: 10px solid lightgray;
+}
+.borde-hover:hover{
+    border-bottom: 10px solid #F0C53E;
+}
+
+.text-box{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.borde-hover{
+    margin-top: 54px;
+}
+
+.parrafo-box{
+    margin-top: 16px;
+}
+
+.mitad-2{
+    height: 50px;
+    width: 100%;
+    background-color: #414141;
+}
+
+.mitad-1{
+    height: 50px;
+    width: 100%;
+    background-color: #E1E1E1;
+}
+.texto-footer1{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.texto-footer1 li{
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 6px;
+    border-right: 2px solid black;
+    color: #414141;
+    cursor: pointer;
+}
+
+.mitad-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mitad-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.mitad-2 p{
+    color: white;
+    font-size: 14px;
+}
+.fab{
+    font-size: 26px;
+    padding: 10px;
+    color: #414141;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 26px;
+}
